@@ -1,0 +1,22 @@
+# configuración de Python
+*.pyc
+__pycache__/
+
+# Migrations automáticas
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Configuración del entorno virtual
+venv/
+virtual/
+*.env
+
+# Base de datos local
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos estáticos generados automáticamente
+staticfiles/
