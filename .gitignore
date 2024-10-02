@@ -20,3 +20,37 @@ db.sqlite3
 
 # Archivos estáticos generados automáticamente
 staticfiles/
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# ESLint cache
+.eslintcache
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*.DS_Store
