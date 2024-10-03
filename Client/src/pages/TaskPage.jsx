@@ -1,10 +1,6 @@
-
+import {TasList} from '../components/TaskList'
 export function TaskPage  () {
-    return (
-      <div>
-        task pages
-      </div>
-    )
+        return <TasList/>
   }
   
   
